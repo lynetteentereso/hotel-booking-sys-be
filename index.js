@@ -1,9 +1,6 @@
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 8000;
-dotenv.config();
-
-const dotenv = require("dotenv");
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
@@ -40,4 +37,4 @@ app.use('/payments', paymentRouter); */
 app.use('/rooms', roomRouter);
 app.use('/users', userRouter);
 
-app.listen(port, () => {console.log(`Express server is running on port ${PORT}`)});
+app.listen(PORT, () => {console.log(`Express server is running on port ${PORT}`)});
