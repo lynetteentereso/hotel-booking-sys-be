@@ -1,0 +1,30 @@
+{
+  "name": "project6",
+  "version": "1.0.0",
+  "description": "Hotel Booking System",
+  "main": "index.js",
+  "engines": {
+    "node": "14.17.6",
+    "npm": "8.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm index.js"
+  },
+  "keywords": [
+    "hotel",
+    "booking",
+    "system"
+  ],
+  "author": "Lynette Entereso",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15"
+  }
+}
